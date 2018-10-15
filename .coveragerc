@@ -1,0 +1,20 @@
+[run]
+branch = True
+source =
+    dpaycli/
+    dpayclibase/
+    dpaycliapi/
+    dpaycligraphenebase/
+omit = 
+     */.eggs/*
+     */.tox/*
+
+[report]
+omit = 
+     */.eggs/*
+     */.tox/*
+
+[paths]
+source =
+    .tox/*/lib/python*/site-packages/dpaycli
+    .tox/pypy/site-packages/dpaycli
